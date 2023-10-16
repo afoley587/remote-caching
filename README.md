@@ -660,7 +660,7 @@ prompt> docker buildx build -t python-app \
 WARNING: No output specified with docker-container driver. Build result will only remain in the build cache. To push result image into registry use --push or to load image into docker use --load
 ```
 
-Wow! We got down from 30 seconds to 5 seconds!
+Wow! We got down from 130 seconds to 5 seconds for the java app and from 30 seconds to 5 seconds in the python app!
 
 Let's break down the new flags we passed to `docker buildx build`:
 

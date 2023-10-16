@@ -1,0 +1,5 @@
+.secret
+.gradle/
+build/
+.terraform/
+terraform.tfstate
